@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RubberDuck</title><link>https://rhlpyd.github.io/rubberduck/</link><description>Recent content on RubberDuck</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 02 Apr 2025 09:30:02 +0530</lastBuildDate><atom:link href="https://rhlpyd.github.io/rubberduck/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://rhlpyd.github.io/rubberduck/posts/my-first-post/</link><pubDate>Wed, 02 Apr 2025 09:30:02 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/my-first-post/</guid><description>&lt;p>Hello, welcome to my site built with Hugo static site generator. I am not new this one but I have used similar ones before.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RubberDuck</title><link>https://rhlpyd.github.io/rubberduck/</link><description>Recent content on RubberDuck</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 15:18:10 +0530</lastBuildDate><atom:link href="https://rhlpyd.github.io/rubberduck/index.xml" rel="self" type="application/rss+xml"/><item><title>Mounting Disks in Linux</title><link>https://rhlpyd.github.io/rubberduck/posts/mounting-disks-in-linux/</link><pubDate>Sun, 06 Apr 2025 15:18:10 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/mounting-disks-in-linux/</guid><description>&lt;p>Here is a short lesson on mounting disk partions in Linux.&lt;/p>
+&lt;h2 id="identify-partitions">Identify partitions&lt;/h2>
+&lt;pre tabindex="0">&lt;code>$ lsblk
+NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+sda 8:0 0 931.5G 0 disk 
+├─sda1 8:1 0 224.6G 0 part /
+├─sda2 8:2 0 8.2G 0 part [SWAP]
+├─sda3 8:3 0 232.8G 0 part 
+└─sda4 8:4 0 465.8G 0 part 
+sdb 8:16 0 1.8T 0 disk 
+└─sdb1 8:17 0 1.8T 0 part /media/x/gli
+&lt;/code>&lt;/pre>&lt;h2 id="mounting-ntfs-partitions">Mounting NTFS partitions&lt;/h2>
+&lt;p>To mount NTFS partitions make sure you have &lt;code>ntfs-3g&lt;/code>&lt;/p></description></item><item><title>My First Post</title><link>https://rhlpyd.github.io/rubberduck/posts/my-first-post/</link><pubDate>Wed, 02 Apr 2025 09:30:02 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/my-first-post/</guid><description>&lt;p>Hello, welcome to my site built with Hugo static site generator. I am not new this one but I have used similar ones before.
 I am still wokring on setting up this blog. It taking embarassing long time.&lt;/p>
 &lt;p>Thanks for stopping by!&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rust" data-lang="rust">&lt;span style="display:flex;">&lt;span>

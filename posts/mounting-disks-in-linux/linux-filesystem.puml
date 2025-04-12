@@ -1,0 +1,11 @@
+@startuml
+skinparam backgroundColor transparent
+
+:Apps & shell;
+:System calls (open, read, write, mount, etc.);
+:VFS (Virtual Filel System);
+:Filesystem Driver (ext4, ntfs-3g, etc.);
+:Block Device (/dev/sda1);
+:Physical Storage (SSD/HDD);
+
+@enduml
