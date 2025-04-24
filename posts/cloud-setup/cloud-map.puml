@@ -1,0 +1,37 @@
+@startuml
+skinparam linetype ortho
+
+cloud internet
+
+rectangle router 
+
+
+rectangle tailnet {
+ rectangle lanv {
+  rectangle "<b>apple1\nLocal IP: 192.168.0.21\nTailnet IP: 102.101.100.99" as apple1
+  rectangle "<b>apple3\nLocal IP: 192.168.0.23\nTailnet IP: 102.101.100.99" <<reverse proxy>> as apple3
+ }
+ 
+ rectangle lanb {
+  rectangle "<b>apple2\nLocal IP: 192.168.0.22\nTailnet IP: 102.101.100.99" as apple2
+  rectangle "<b>apple4\nLocal IP: 192.168.0.24\nTailnet IP: 102.101.100.99" as apple4
+ }
+
+ rectangle nyc
+}
+
+
+internet ~~ router 
+apple3 ~~ apple1
+apple3 ~~ apple2
+apple3 ~~ apple4
+apple3 ~~ nyc
+router ~~ lanv
+
+note right of router
+Local IP: 192.168.0.1
+External IP: 175.101.77.45
+Role: Gateway / NAT
+Network: lanv
+end note
+@enduml
