@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RubberDuck</title><link>https://rhlpyd.github.io/rubberduck/</link><description>Recent content on RubberDuck</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 14 Sep 2025 22:36:13 +0530</lastBuildDate><atom:link href="https://rhlpyd.github.io/rubberduck/index.xml" rel="self" type="application/rss+xml"/><item><title>Amazon Q Cli</title><link>https://rhlpyd.github.io/rubberduck/posts/amazon-q-cli/</link><pubDate>Sun, 14 Sep 2025 22:36:13 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/amazon-q-cli/</guid><description>&lt;h1 id="amazon-q-cli-your-ai-powered-command-line-assistant">Amazon Q CLI: Your AI-Powered Command Line Assistant&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RubberDuck</title><link>https://rhlpyd.github.io/rubberduck/</link><description>Recent content on RubberDuck</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 15 Sep 2025 09:17:38 +0530</lastBuildDate><atom:link href="https://rhlpyd.github.io/rubberduck/index.xml" rel="self" type="application/rss+xml"/><item><title>Coaching</title><link>https://rhlpyd.github.io/rubberduck/posts/coaching/</link><pubDate>Mon, 15 Sep 2025 09:17:38 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/coaching/</guid><description>&lt;p>&lt;img src="coaching.jpg" alt="coaching">&lt;/p>
+&lt;h1 id="-deep-work-session-journal">📝 Deep Work Session Journal&lt;/h1>
+&lt;h2 id="-before-session">🔹 Before Session&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> What do I want to move forward right now?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What will tell me I made progress?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What distraction do I want to avoid this session?&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-after-session">🔹 After Session&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> What did I move forward?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What helped me focus?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What got in the way?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> One small win I’m proud of: _________&lt;/li>
+&lt;/ul></description></item><item><title>Amazon Q Cli</title><link>https://rhlpyd.github.io/rubberduck/posts/amazon-q-cli/</link><pubDate>Sun, 14 Sep 2025 22:36:13 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/amazon-q-cli/</guid><description>&lt;h1 id="amazon-q-cli-your-ai-powered-command-line-assistant">Amazon Q CLI: Your AI-Powered Command Line Assistant&lt;/h1>
 &lt;p>Amazon Q CLI is a powerful command-line interface that brings AI assistance directly to your terminal. Built by AWS, it provides intelligent help for development tasks, AWS resource management, and general productivity workflows.&lt;/p>
 &lt;h2 id="core-features">Core Features&lt;/h2>
 &lt;p>&lt;strong>Interactive Chat Interface&lt;/strong> - Engage in natural conversations with AI directly from your terminal using &lt;code>q chat&lt;/code>.&lt;/p>
