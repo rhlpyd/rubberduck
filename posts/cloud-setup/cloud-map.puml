@@ -8,8 +8,8 @@ rectangle router
 
 rectangle tailnet {
  rectangle lanv {
-  rectangle "<b>apple1\nLocal IP: 192.168.0.21\nTailnet IP: 102.101.100.99" as apple1
-  rectangle "<b>apple3\nLocal IP: 192.168.0.23\nTailnet IP: 102.101.100.99" <<reverse proxy>> as apple3
+  rectangle "<b>apple1\nLocal IP: 192.168.0.21\nTailnet IP: 100.100.254.18" as apple1
+  rectangle "<b>apple3\nLocal IP: 192.168.0.23\nTailnet IP: 100.87.145.37" <<reverse proxy>> as apple3
  }
  
  rectangle lanb {
