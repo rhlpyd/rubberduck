@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on RubberDuck</title><link>https://rhlpyd.github.io/rubberduck/posts/</link><description>Recent content in Posts on RubberDuck</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 11 Nov 2025 11:03:07 +0530</lastBuildDate><atom:link href="https://rhlpyd.github.io/rubberduck/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Ai Agents</title><link>https://rhlpyd.github.io/rubberduck/posts/google-ai-agents/</link><pubDate>Tue, 11 Nov 2025 11:03:07 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/google-ai-agents/</guid><description>&lt;h1 id="day-1">Day 1&lt;/h1>
+&lt;p>kaggle account - done&lt;/p>
+&lt;p>google ai studio - done&lt;/p>
+&lt;p>&lt;a href="https://www.kaggle.com/learn-guide/5-day-agents">https://www.kaggle.com/learn-guide/5-day-agents&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=BPQDZLPtgDc">https://www.youtube.com/watch?v=BPQDZLPtgDc&lt;/a> - Introduction to kaggle notebooks&lt;/p>
 &lt;ul>
-&lt;li>kaggle account - done&lt;/li>
-&lt;li>google ai studio - done&lt;/li>
-&lt;li>&lt;a href="https://www.kaggle.com/learn-guide/5-day-agents">https://www.kaggle.com/learn-guide/5-day-agents&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>The Trillion-Dollar AI Software Development Stack: A Summary</title><link>https://rhlpyd.github.io/rubberduck/posts/ai-software-dev-stack/</link><pubDate>Thu, 16 Oct 2025 15:29:48 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/ai-software-dev-stack/</guid><description>&lt;p>&lt;em>Based on &lt;a href="https://a16z.com/the-trillion-dollar-ai-software-development-stack/">The Trillion Dollar AI Software Development Stack&lt;/a> by Andreessen Horowitz (a16z).&lt;/em>&lt;/p>
+&lt;li>manage secrets via environments&lt;/li>
+&lt;/ul>
+&lt;p>Whitepaper summary&lt;/p>
+&lt;ul>
+&lt;li>autonomy&lt;/li>
+&lt;li>3 core parts - model, tools, orchestrator&lt;/li>
+&lt;li>model - managing context window&lt;/li>
+&lt;li>orchestrator - chain of thought, react, reasoning&lt;/li>
+&lt;li>think - act - observe cycle&lt;/li>
+&lt;li>taxonomy of agentic systems&lt;/li>
+&lt;li>level 1 - tools&lt;/li>
+&lt;li>level 2 - context engineering&lt;/li>
+&lt;li>level 3 - collaborative multi-agent systems - delegation of goals&lt;/li>
+&lt;li>level 4 - self-evolving systems - knows what is doesn&amp;rsquo;t know - adapting and expanding capabilities&lt;/li>
+&lt;li>dealing with non-determinism - model routing - pick the right model&lt;/li>
+&lt;li>retrieval - RAG&lt;/li>
+&lt;li>apis wrapped as tools - MPC&lt;/li>
+&lt;li>fucntion calling - tools need clear decription&lt;/li>
+&lt;li>system prompt&lt;/li>
+&lt;li>managing memory - short-term, long-term - RAG system that stores memories in vector dbs&lt;/li>
+&lt;li>testing and debugging - - ai judge - open telemetry traces - human feedback&lt;/li>
+&lt;li>security - hardcoded guardrails - guard model - ai security&lt;/li>
+&lt;li>secure, verfiable identity&lt;/li>
+&lt;li>agent sprawl, agent governance, single gateway&lt;/li>
+&lt;li>simulation - agent gym&lt;/li>
+&lt;li>google - co-scientist - level 3 or sometimes level 4&lt;/li>
+&lt;li>alphaevolve - design and generate algorithms - level 4&lt;/li>
+&lt;li>enterprise security - MCP , A2A - handles data governance&lt;/li>
+&lt;li>new A2UI&lt;/li>
+&lt;li>simple specialized agents and routing to those agents&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://google.github.io/adk-docs/">https://google.github.io/adk-docs/&lt;/a> - ADK&lt;/p></description></item><item><title>The Trillion-Dollar AI Software Development Stack: A Summary</title><link>https://rhlpyd.github.io/rubberduck/posts/ai-software-dev-stack/</link><pubDate>Thu, 16 Oct 2025 15:29:48 +0530</pubDate><guid>https://rhlpyd.github.io/rubberduck/posts/ai-software-dev-stack/</guid><description>&lt;p>&lt;em>Based on &lt;a href="https://a16z.com/the-trillion-dollar-ai-software-development-stack/">The Trillion Dollar AI Software Development Stack&lt;/a> by Andreessen Horowitz (a16z).&lt;/em>&lt;/p>
 &lt;hr>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>We are entering a new era of software development powered by &lt;strong>AI-assisted tools and agents&lt;/strong>.&lt;br>
